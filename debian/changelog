@@ -1,0 +1,44 @@
+node-os-locale (5.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * New upstream version 5.0.0
+  * Add build dependency to node-proxyquire
+  * Refresh patch
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 23 Dec 2020 06:23:46 +0100
+
+node-os-locale (4.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto install
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * New upstream version 4.0.0
+  * Enable upstream test using tape instead fo ava
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 08 Mar 2020 18:22:19 +0100
+
+node-os-locale (2.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #845618)
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 25 Nov 2016 14:57:26 +0530
