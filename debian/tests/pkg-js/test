@@ -1,3 +1,0 @@
-export LANG=fr_FR.UTF-8
-export LC_ALL=en_US.UTF-8
-NODE_PATH=debian/tests/test_modules tape test.js

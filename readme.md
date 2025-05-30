@@ -1,4 +1,4 @@
-# os-locale [![Build Status](https://travis-ci.org/sindresorhus/os-locale.svg?branch=master)](https://travis-ci.org/sindresorhus/os-locale)
+# os-locale
 
 > Get the system [locale](https://en.wikipedia.org/wiki/Locale_(computer_software))
 
@@ -15,12 +15,10 @@ $ npm install os-locale
 ## Usage
 
 ```js
-const osLocale = require('os-locale');
+import {osLocale} from 'os-locale';
 
-(async () => {
-	console.log(await osLocale());
-	//=> 'en-US'
-})();
+console.log(await osLocale());
+//=> 'en-US'
 ```
 ## API
 
@@ -28,7 +26,7 @@ const osLocale = require('os-locale');
 
 Returns a `Promise` for the locale.
 
-### osLocale.sync(options?)
+### osLocaleSync(options?)
 
 Returns the locale.
 

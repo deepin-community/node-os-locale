@@ -11,10 +11,6 @@ Files: debian/*
 Copyright: 2016 Pirate Praveen <praveen@debian.org>
 License: Expat
 
-Files: debian/tests/test_modules/*
-Copyright: Sindre Sorhus <sindresorhus@gmail.com>
-License: Expat
-
 License: Expat
  Permission is hereby granted, free of charge, to any person
  obtaining a copy of this software and associated documentation files
