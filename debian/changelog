@@ -1,3 +1,27 @@
+node-os-locale (6.0.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Drop useless patch
+
+ -- Yadd <yadd@debian.org>  Sat, 07 May 2022 08:32:52 +0200
+
+node-os-locale (5.0.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Drop all test modules
+  * Add patch for node-mem > 9
+
+ -- Yadd <yadd@debian.org>  Wed, 23 Feb 2022 15:19:21 +0100
+
+node-os-locale (5.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+
+ -- Yadd <yadd@debian.org>  Mon, 22 Nov 2021 11:51:27 +0100
+
 node-os-locale (5.0.0-1) unstable; urgency=medium
 
   * Team upload
